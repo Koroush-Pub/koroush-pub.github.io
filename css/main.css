@@ -1,0 +1,500 @@
+@import "./animation.css";
+
+body {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {font-family: 'Patrick Hand', cursive;
+  width: 100%;
+  height: 39px;
+  background-color: #0a1931;
+}
+
+.container-one {
+  position: relative;
+  margin: 0 auto;
+  text-align: end;
+  padding: 9px;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-size: 15px;
+}
+
+.about-me {
+  color: white;
+  padding: 15px;
+}
+
+.skills {
+  color: white;
+  padding: 15px;
+}
+
+.cnt-me {
+  color: white;
+  padding: 15px;
+}
+
+.top-section {
+  width: 100%;
+  height: 710px;
+  /*378px */
+  background-color: #292c6d;
+}
+
+.container-two {
+  text-align: center;
+  padding-top: 80px;
+  width: 70%;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.astroid {
+  width: 79px;
+  height: 75px;
+  position: absolute;
+  top: 20px;
+  right: 410px;
+}
+
+.rotate {
+  transform: rotate(65deg);
+}
+
+#top-name {
+  font-family: 'Courgette', cursive;
+  margin: 0px;
+  font-size: 120px;;
+}
+
+#top-des {
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  padding: 10px 0 10px 0px;
+  font-size: 25px;
+}
+
+.stars-decore {
+  z-index: 0;
+}
+
+#star-1 {
+  position: absolute;
+  top: 430px;
+  left: 180px;
+  margin: auto;
+}
+
+#star-2 {
+  position: absolute;
+  top: 32px;
+  left: 50px;
+}
+
+#star-3 {
+  position: absolute;
+  top: 190px;
+  right: 70px;
+  margin: 10px
+}
+
+#star-4 {
+  position: absolute;
+  top: 342px;
+  right: 310px;
+}
+
+#star-5 {
+  position: absolute;
+  top: 380px;
+  left: 450px;
+}
+
+#star-6 {
+  position: absolute;
+  top: 280px;font-family: 'Fleur De Leah', cursive;
+  right: 560px;
+}
+
+.mid-section {
+  width: 100%;
+  height: 770px;
+  background-color: #1597e5;
+}
+
+#sun {
+  position: absolute;
+  top: 720px;
+  right: 90px;
+}
+
+#avatar-mid {
+  margin: auto;
+  display: block;
+  padding: 40px 0 10px 0;
+  width: 50px;
+}
+
+.hi-mid {
+  margin: auto;
+  text-align: center;
+  padding: 40px 0 40px 0;
+  font-size: 90px;
+  font-family: 'Courgette', cursive;
+}
+
+.dis-mid {
+  margin: auto;
+  text-align: center;
+  width: 40%;
+  padding: 10px 0 10px 0;
+  font-size: 20px;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-weight: 600;
+}
+
+#wind1 {
+  position: absolute;
+  top: 1122px;
+  left: -118px;
+  width: 250px
+}
+
+#wind2 {
+  position: absolute;
+  top: 1106px;
+  left: 0px;
+  width: 300px
+}
+
+#wind3 {
+  position: absolute;
+  top: 1321px;
+  left: -172px;
+}
+
+#wind4 {
+  position: absolute;
+  top: 1320px;
+}
+
+#cloud-big-left {
+  position: absolute;
+  top: 1410px;
+  left: -20px;
+  width: 770px;
+}
+
+#cloud-big-right {
+  position: absolute;
+  top: 1440px;
+  right: 0px;
+  width: 510px
+}
+
+#cloud-small-left {
+  position: absolute;
+  top: 1500px;
+  right: 520px;
+  width: 50px
+}
+
+.bot-section {
+  width: 100%;
+  height: 770px;
+  background-color: #84dfff;
+}
+
+#mountain {
+  width: 950px;
+  position: absolute;
+  top: 1813px;
+  right: 320px;
+}
+
+.green {
+  background-color: #95CD41;
+  height: 20px;
+  width: 100%;
+  position: absolute;
+  top: 2279px;
+}
+
+/* git */
+#git-logo {
+  width: 140px;
+}
+
+#git-height {
+  line-height: 8;
+}
+
+#git-line {
+  position: absolute;
+  width: 204px;
+  top: 125px;
+  left: -110px;
+}
+
+.git {
+  position: absolute;
+  top: 1810px;
+  left: 110px;
+}
+
+/* photoshop */
+#ps-logo {
+  width: 220px;
+}
+
+#ps-height {
+  line-height: 10;
+}
+
+#ps-line {
+  position: absolute;
+  top: 150px;
+  width: 310px;
+  left: -60px;
+}
+
+.logo-title-left {
+  float: left;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-size: 21px;
+}
+
+.ps {
+  position: absolute;
+  top: 1630px;
+  left: 30px;
+}
+
+.logos-line {
+  border: none;
+  border-top: 2px solid #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+/* Webdev */
+#web-dev-logo {
+  width: 150px;
+}
+
+#webdev-height {
+  line-height: 2;
+  padding-right: 7px;
+}
+
+#webdev-line {
+  position: absolute;
+  width: 290px;
+  top: 60px;
+  left: -50px;
+}
+
+.webdev {
+  position: absolute;
+  top: 2020px;
+  left: 33px;
+}
+
+/* linux */
+#linux-logo {
+  width: 80px;
+}
+
+#linux-height {
+  line-height: 5;
+  padding: 0 0px 0 40px;
+}
+
+#linux-line {
+  position: absolute;
+  width: 290px;
+  top: 97px;
+  right: -129px;
+}
+
+.linux {
+  position: absolute;
+  top: 1683px;
+  right: 130px;
+}
+
+.logo-title-right {
+  float: right;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-size: 21px;
+}
+
+/* python */
+#python-logo {
+  width: 190px;
+}
+
+#python-height {
+  line-height: 120px;
+}
+
+#python-line {
+  position: absolute;
+  width: 231px;
+  top: 106px;
+  right: -50px
+}
+
+.python {
+  position: absolute;
+  top: 1829px;
+  right: 50px;
+}
+
+/* net plus */
+#net-plus-logo {
+  width: 160px;
+}
+
+#net-line {
+  position: absolute;
+  width: 291px;
+  right: -30px;
+  top: 41px;
+}
+
+#net-height {
+  line-height: 0px;
+  padding-left: 30px;
+}
+
+.net {
+  position: absolute;
+  top: 2039px;
+  right: 32px;
+}
+
+#title-bot-sec {
+  margin: 0px auto;
+  text-align: center;
+  padding: 90px;
+  font-size: 90px;
+  font-family: 'Courgette', cursive;
+  }
+
+#pa-bot-sec {
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-weight: 600;
+}
+
+.footer {
+  width: 100%;
+  height: 90px;
+  background-color: #c36a2d;
+}
+
+.f-logos {
+  margin: 0;
+  text-align: center;
+  padding: 20px;
+}
+
+#email-logo {
+  width: 25px;
+  padding: 0 10px 0 10px;
+}
+
+#telegram-logo {
+  width: 23px;
+  padding: 0 10px 0 10px;
+}
+
+#twitter-logo {
+  width: 25px;
+  padding: 0 10px 0 10px;
+}
+
+#github-logo {
+  width: 34px;
+  padding: 0 10px 0 10px;
+}
+
+#copyright {
+  margin: -5px 0 0;
+  text-align: center;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-weight: 100;
+  font-size: 10px;
+  color: #04293A;
+}
+
+.z-index{
+  z-index: 2;
+}
+
+/* medias */
+@media (max-width: 1170px) {
+  #star-5 {
+    display: none;
+  }
+}
+
+@media (max-width: 1080px) {
+  #star-4 {
+    display: none;
+}
+
+}
+
+@media (max-width: 1000px) {
+
+  #mountain{
+      right: auto;
+
+    }
+
+    #wind3 {
+      top: 1351px;
+    }
+
+    #wind4 {
+      top: 1350px;
+    }
+
+}
+
+@media (max-width: 580px) {
+  #mountain{
+    display: none;
+    position: absolute;
+    right: auto;
+    z-index: 0;
+
+  }
+  #wind1 {
+    top: 1082px;
+  }
+
+  #wind2 {
+    top: 1082px;
+  }
+
+  #wind3 {
+    top: 1351px;
+  }
+
+  #wind4 {
+    top: 1350px;
+  }
+
+
+}

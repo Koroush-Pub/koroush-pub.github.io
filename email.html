@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- favicon -->
+    <link rel="icon" href="images/favicon.png">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Fleur+De+Leah&family=Great+Vibes&display=swap" rel="stylesheet">
+    <!-- css style -->
+    <link rel="stylesheet" href="css/email.css">
+    <meta charset="utf-8">
+    <title>Email Me!</title>
+  </head>
+  <body>
+
+    <h1>Contact Me</h1>
+
+    <form class="email_form" action="mailto:koroush.pub@gmail.com" method="post" enctype="text/plain">
+
+      <label for="name">Your Name: <span>(required)</span></label>
+      <input class="input-style" id="name" type="text" name="name" placeholder="example" required><br>
+
+      <label for="email">Your Email: <span>(required)</span></label>
+      <input class="input-style" id="email" type="email" name="email" placeholder="example@gmail.com" required><br>
+
+
+      <label id="subj" for="sub">Subject: </label>
+      <input class="input-style" id="sub" type="text" name="sub"><br>
+
+      <textarea class="input-style custume_textarea" name="message" rows="8" cols="80"></textarea><br>
+
+      <input id="send_b" class="send_butt" type="submit" name="" value="send">
+
+    </form>
+
+    <img class="clouds-pub" id="cl-one" src="images/clouds/cloud-one.png" alt="cloud">
+    <img class="clouds-pub" id="cl-two" src="images/clouds/cloud-two.png" alt="cloud">
+    <img class="clouds-pub" id="cl-three" src="images/clouds/cloud-three.png" alt="cloud">
+
+
+
+  <script src="javascript/email.js" charset="utf-8"></script>
+  </body>
+</html>

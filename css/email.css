@@ -1,0 +1,130 @@
+body {
+  background-color: #84DFFF;
+  text-align: center;
+  margin: auto;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 2.2% 0;
+  font-weight: 600;
+  color: #1A374D;
+}
+
+form:invalid>#send_b {
+  pointer-events: none;
+}
+
+.email_form {
+  z-index: 1;
+  position: relative;
+}
+
+.input-style {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#sub {
+  position: relative;
+  right: -46px;
+}
+
+#subj {
+  position: relative;
+  left: 41px;
+}
+
+.custume_textarea {
+  margin: 8px 0px;
+  width: 50%;
+  height: 40%;
+}
+
+.send_butt {
+  background-image: linear-gradient(
+92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  height: 2.5rem;
+  padding: 0 5.6rem;
+  text-align: center;
+  text-shadow: rgb(0 0 0 / 25%) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  }
+
+.send_butt_after {
+  background-color: #84DFFF;
+  border: solid 2px #95D1CC;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #1A374D;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  height: 2.5rem;
+  padding: 0 5.6rem;
+  text-align: center;
+  text-shadow: rgb(0 0 0 / 25%) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  }
+}
+
+  .button-36:hover {
+    box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+    transition-duration: .1s;
+  }
+
+  @media (min-width: 768px) {
+    .button-36 {
+      padding: 0 2.6rem;
+    }
+  }
+}
+
+#send_but:hover {
+  background-color: black;
+  border: solid 2px #39A2DB;
+  color: #47597E;
+}
+
+.clouds-pub {
+  position: absolute;
+  z-index: 0;
+}
+
+#cl-one {
+  top: 370px;
+  right: 1170px;
+}
+
+#cl-two {
+  width: 210px;
+  right: 90px;
+  top: 40px;
+}
+
+#cl-three {
+  display: none;
+}
